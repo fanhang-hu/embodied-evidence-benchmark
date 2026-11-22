@@ -1,0 +1,415 @@
+{
+  "schema": "embodied.evidence_benchmark.attribute_summary.v1",
+  "planned": 72,
+  "completed": 72,
+  "failed_or_incomplete": 0,
+  "source_protocol_sha256": "73bfc246ff52c61374567552108bf32363a819034f609984fddb723bbe6f6177",
+  "source_audit_sha256": "ce011f3b0a29274b3536f89914a0240002218a6a7dbfdc949381acbbdc874b1a",
+  "card_sha256": "fdf1d2118a38c4be571218e8a393659a77a27ca02f589dfe74e3ccbe60d6a6e5",
+  "exporter_sha256": "66e6843d4ac8dd6b49d2375c7a5806d5464b7637c383699844d9dcfe7c2d3538",
+  "groups": [
+    {
+      "condition": "benign_safe",
+      "guard": "attribute_reference",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 6
+    },
+    {
+      "condition": "benign_safe",
+      "guard": "same_source_fresh",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 12
+    },
+    {
+      "condition": "benign_safe",
+      "guard": "independent_fresh",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "protected_query_count": 6,
+      "producer_publication_count": 6
+    },
+    {
+      "condition": "benign_safe",
+      "guard": "fail_closed",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "false_defer_rate": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 6
+    },
+    {
+      "condition": "clean_unsafe",
+      "guard": "attribute_reference",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 6
+    },
+    {
+      "condition": "clean_unsafe",
+      "guard": "same_source_fresh",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 12
+    },
+    {
+      "condition": "clean_unsafe",
+      "guard": "independent_fresh",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 6,
+      "producer_publication_count": 6
+    },
+    {
+      "condition": "clean_unsafe",
+      "guard": "fail_closed",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 6
+    },
+    {
+      "condition": "producer_attack",
+      "guard": "attribute_reference",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "execution_violation_rate": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 6
+    },
+    {
+      "condition": "producer_attack",
+      "guard": "same_source_fresh",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "execution_violation_rate": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 12
+    },
+    {
+      "condition": "producer_attack",
+      "guard": "independent_fresh",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 6,
+      "producer_publication_count": 6
+    },
+    {
+      "condition": "producer_attack",
+      "guard": "fail_closed",
+      "planned": 6,
+      "completed": 6,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 6
+    }
+  ],
+  "external_bound": {
+    "status": "N/A",
+    "reason": "component does not implement pickup contract"
+  },
+  "scope": "Six observed development scenes; fixed candidate; same simulator protected query; not held-out",
+  "audit_status": "PASS_ATTRIBUTE_NATIVE_AUDIT",
+  "audit_completed": 72
+}

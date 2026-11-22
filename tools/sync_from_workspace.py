@@ -10,6 +10,7 @@ WORKSPACE=REPO.parent
 FOLDERS=('e1_validation','e2_validation','e3_baseline','e4_validation','e5_validation','e6_validation',
          'benchmark_v0','scripts','configs','experiment_tools','setup_checks','tests','share-pool')
 SUFFIXES={'.py','.md','.json','.yaml','.yml','.sh','.txt','.toml'}
+CASE_FILES=('benchmark_v0/cases/attribute_relation_scenes_20261122.jsonl',)
 SUMMARIES={'e6_online_summary.json':'results/E6/36_online_report/online_20261025_170422_914231/summary.json',
            'unified_development_summary.json':'results/benchmark_v0/unified_execution_run_20261122_01/unified_export/summary.json',
            'attribute_four_scene_summary.json':'results/benchmark_v0/attribute_expanded_export_20261122_01/summary.json',
@@ -25,6 +26,9 @@ def candidates():
             if not p.is_file() or p.is_symlink() or '__pycache__' in p.parts or '.git' in p.parts: continue
             if p.name.startswith('.env') or p.name in ('.netrc','.git-credentials') or p.suffix.lower() not in SUFFIXES: continue
             yield p,REPO/p.relative_to(WORKSPACE)
+    for name in CASE_FILES:
+        p=WORKSPACE/name
+        if p.is_file() and not p.is_symlink(): yield p,REPO/name
     for p in WORKSPACE.glob('*.md'):
         yield p,(REPO/'docs/original-project-readme.md' if p.name=='README.md' else REPO/p.name)
     for name,source in SUMMARIES.items():
