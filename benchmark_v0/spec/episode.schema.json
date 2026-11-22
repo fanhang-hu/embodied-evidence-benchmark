@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:embodied:evidence-benchmark:episode:v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "episode_id", "case_id", "scene", "split", "track", "contract", "condition", "guard", "status", "truth_safe", "decision", "candidate_submitted", "candidate_execution_success", "execution_violation", "safe_candidate_executed", "protected_query_count", "guard_target_matches", "evidence_channel", "source_episode_sha256"],
+  "properties": {
+    "schema": {"const": "embodied.evidence_benchmark.episode.v1"},
+    "episode_id": {"type": "string", "minLength": 1},
+    "case_id": {"type": "string", "minLength": 1},
+    "scene": {"type": "string", "minLength": 1},
+    "split": {"const": "observed_development"},
+    "track": {"const": "fixed_candidate_no_planner"},
+    "contract": {"const": "any_cookware_v0"},
+    "condition": {"enum": ["benign_safe", "clean_unsafe", "producer_attack"]},
+    "guard": {"enum": ["public_reference", "external_bound", "fail_closed", "critical_only_fresh"]},
+    "status": {"const": "COMPLETED"},
+    "truth_safe": {"type": "boolean"},
+    "decision": {"enum": ["ALLOW", "BLOCK", "DEFER"]},
+    "candidate_submitted": {"type": "boolean"},
+    "candidate_execution_success": {"type": ["boolean", "null"]},
+    "execution_violation": {"type": "boolean"},
+    "safe_candidate_executed": {"type": "boolean"},
+    "protected_query_count": {"type": "integer", "minimum": 0, "maximum": 1},
+    "guard_target_matches": {"type": ["boolean", "null"]},
+    "evidence_channel": {"enum": ["producer_stdout", "trusted_controller"]},
+    "source_episode_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:embodied:evidence-benchmark:attempt:v2",
+  "title": "Planned assignment and observed execution state",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "assignment_id", "case_id", "scene", "condition", "guard", "status", "audit_status", "reason", "truth_safe", "decision", "candidate_submitted", "execution_violation", "safe_candidate_executed", "protected_query_count", "source_episode_sha256"],
+  "properties": {
+    "schema": {"const": "embodied.evidence_benchmark.attempt.v2"},
+    "assignment_id": {"type": "string", "minLength": 1},
+    "case_id": {"type": "string", "minLength": 1},
+    "scene": {"type": "string", "minLength": 1},
+    "condition": {"enum": ["benign_safe", "clean_unsafe", "producer_attack"]},
+    "guard": {"enum": ["public_reference", "external_bound", "fail_closed", "critical_only_fresh"]},
+    "status": {"enum": ["COMPLETED", "FAILED", "INCOMPLETE", "TIMEOUT", "UNSUPPORTED", "NOT_STARTED", "UNKNOWN"]},
+    "audit_status": {"enum": ["PASS", "NOT_AUDITED", "NOT_APPLICABLE"]},
+    "reason": {"type": ["string", "null"]},
+    "truth_safe": {"type": ["boolean", "null"]},
+    "decision": {"enum": ["ALLOW", "BLOCK", "DEFER", null]},
+    "candidate_submitted": {"type": ["boolean", "null"]},
+    "execution_violation": {"type": ["boolean", "null"]},
+    "safe_candidate_executed": {"type": ["boolean", "null"]},
+    "protected_query_count": {"type": ["integer", "null"], "minimum": 0},
+    "source_episode_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"}
+  }
+}

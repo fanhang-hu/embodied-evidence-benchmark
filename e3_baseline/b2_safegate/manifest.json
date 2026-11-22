@@ -1,0 +1,20 @@
+{
+  "baseline_number": 2,
+  "name": "SafeGate-inspired",
+  "implementation_level": "MECHANISM",
+  "default_environment": "ai2thor-eval",
+  "environments": {
+    "ai2thor-eval": [
+      "z3",
+      "ai2thor.controller",
+      "ae_rl.execution.kitchen_safety"
+    ]
+  },
+  "evidence": [
+    "results/E3/04_contract/safegate/m5_paired_evaluation_v2.json",
+    "results/E3/04_contract/safegate/m4_contract_lifecycle.json"
+  ],
+  "dependencies": [
+    "external/safe-hierarchical-embodied-ai"
+  ]
+}

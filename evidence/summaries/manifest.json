@@ -1,0 +1,22 @@
+[
+  {
+    "file": "e6_online_summary.json",
+    "workspace_source": "results/E6/36_online_report/online_20261025_170422_914231/summary.json",
+    "sha256": "4f7caa5094d14ffeaafd1481fd17238a44de68bd00949fa43c4e3bc4870dec90"
+  },
+  {
+    "file": "unified_development_summary.json",
+    "workspace_source": "results/benchmark_v0/unified_execution_run_20261122_01/unified_export/summary.json",
+    "sha256": "d98f41eba3753cd6578935580e1bdf7fcf0de48f657aba6ec9f810003bb24bb5"
+  },
+  {
+    "file": "attribute_four_scene_summary.json",
+    "workspace_source": "results/benchmark_v0/attribute_expanded_export_20261122_01/summary.json",
+    "sha256": "3b06b1804db351b6f59445c76a03324298ff0773967617713975c8b2176c7546"
+  },
+  {
+    "file": "candidate_four_scene_summary.json",
+    "workspace_source": "results/benchmark_v0/candidate_evaluation_attempts_20261122_01/summary.json",
+    "sha256": "50eb09b025a932d6d972d070485756001bf6c9d16f50af03e3a9c5ecc1eccc49"
+  }
+]

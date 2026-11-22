@@ -1,0 +1,11 @@
+{
+  "name": "M0 platform smoke checks",
+  "default_environment": "ai2thor-eval",
+  "environments": {
+    "ai2thor-eval": [
+      "ai2thor.controller",
+      "openai"
+    ]
+  },
+  "evidence": []
+}

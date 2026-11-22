@@ -1,0 +1,22 @@
+{
+  "baseline_number": 7,
+  "name": "PerceptTwin",
+  "implementation_level": "ADAPTED_COMPONENT",
+  "default_environment": "percepttwin-eval",
+  "environments": {
+    "percepttwin-eval": [
+      "ai2thor.controller",
+      "jax"
+    ]
+  },
+  "evidence": [
+    "results/E3/07_percepttwin/p24b_native_plan.json",
+    "results/E3/07_percepttwin/p25_feedback_replan.json",
+    "results/E3/07_percepttwin/e2_corrupted_freshcheck.json",
+    "results/E3/07_percepttwin/e2b_clean_positive.json"
+  ],
+  "dependencies": [
+    "external/PerceptTwin",
+    "external/ai2thor-percepttwin"
+  ]
+}

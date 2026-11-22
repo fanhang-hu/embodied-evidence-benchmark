@@ -1,0 +1,20 @@
+{
+  "baseline_number": 3,
+  "name": "RoboSafe-inspired",
+  "implementation_level": "MECHANISM",
+  "default_environment": "ai2thor-eval",
+  "environments": {
+    "ai2thor-eval": [
+      "openai",
+      "ai2thor.controller",
+      "PIL"
+    ]
+  },
+  "evidence": [
+    "results/E3/05_optional/robosafe/r6a_fusion_v1.json",
+    "results/E3/05_optional/robosafe/r6b_dual_corruption_swap_v1.json"
+  ],
+  "dependencies": [
+    "external/safe-hierarchical-embodied-ai"
+  ]
+}

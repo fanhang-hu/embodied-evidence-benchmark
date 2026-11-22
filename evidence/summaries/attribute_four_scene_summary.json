@@ -1,0 +1,412 @@
+{
+  "schema": "embodied.evidence_benchmark.attribute_summary.v1",
+  "planned": 48,
+  "completed": 48,
+  "failed_or_incomplete": 0,
+  "source_protocol_sha256": "b4591d99ef61c7b911ee93e7c7f0f67bfaa2a9d643204e18b87d5c1d88ccca1a",
+  "source_audit_sha256": "ae992058edf7d06fa1394fb5494728978ebdb48da413ff824b9a811e4fb3deb4",
+  "card_sha256": "fdf1d2118a38c4be571218e8a393659a77a27ca02f589dfe74e3ccbe60d6a6e5",
+  "exporter_sha256": "9dcd237579b5a1adc0c73b067328be595f832ed062b85434240996267453cff8",
+  "groups": [
+    {
+      "condition": "benign_safe",
+      "guard": "attribute_reference",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "condition": "benign_safe",
+      "guard": "same_source_fresh",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 8
+    },
+    {
+      "condition": "benign_safe",
+      "guard": "independent_fresh",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "protected_query_count": 4,
+      "producer_publication_count": 4
+    },
+    {
+      "condition": "benign_safe",
+      "guard": "fail_closed",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "false_defer_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "condition": "clean_unsafe",
+      "guard": "attribute_reference",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "condition": "clean_unsafe",
+      "guard": "same_source_fresh",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 8
+    },
+    {
+      "condition": "clean_unsafe",
+      "guard": "independent_fresh",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 4,
+      "producer_publication_count": 4
+    },
+    {
+      "condition": "clean_unsafe",
+      "guard": "fail_closed",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "condition": "producer_attack",
+      "guard": "attribute_reference",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "execution_violation_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "condition": "producer_attack",
+      "guard": "same_source_fresh",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "execution_violation_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 8
+    },
+    {
+      "condition": "producer_attack",
+      "guard": "independent_fresh",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 4,
+      "producer_publication_count": 4
+    },
+    {
+      "condition": "producer_attack",
+      "guard": "fail_closed",
+      "planned": 4,
+      "completed": 4,
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    }
+  ],
+  "external_bound": {
+    "status": "N/A",
+    "reason": "component does not implement pickup contract"
+  }
+}

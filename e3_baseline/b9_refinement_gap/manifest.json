@@ -1,0 +1,25 @@
+{
+  "baseline_number": 9,
+  "name": "Mind the Refinement Gap",
+  "implementation_level": "ADAPTED_COMPONENT",
+  "default_environment": "refinement-gap-eval",
+  "environments": {
+    "refinement-gap-eval": [
+      "spot",
+      "roboguard.synthesis",
+      "spine.mapping.graph_util"
+    ]
+  },
+  "evidence": [
+    "results/E3/09_refinement_gap/r5l_final_summary.json",
+    "results/E3/09_refinement_gap/r5jk_boundary_final.json"
+  ],
+  "dependencies": [
+    "external/RoboGuard",
+    "external/SPINE"
+  ],
+  "runtime_defaults": {
+    "SPINE_MODEL": "deepseek-flash",
+    "OPENAI_BASE_URL": "https://api.deepseek.com"
+  }
+}

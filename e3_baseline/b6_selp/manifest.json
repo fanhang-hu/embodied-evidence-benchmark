@@ -1,0 +1,21 @@
+{
+  "baseline_number": 6,
+  "name": "SELP",
+  "implementation_level": "ORIGINAL_COMPONENT_AND_MECHANISM",
+  "default_environment": "selp-ltl",
+  "environments": {
+    "selp-ltl": [
+      "spot",
+      "selp.ltl",
+      "selp.constrained_decoding"
+    ]
+  },
+  "evidence": [
+    "results/E3/selp/e1_official_ltl_smoke.json",
+    "results/E3/selp/e3c_unsafe_authorization.json",
+    "results/E3/selp/e4_constrained_decoding.json"
+  ],
+  "dependencies": [
+    "external/selp"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "baseline_number": 1,
+  "name": "RoboGuard",
+  "implementation_level": "ADAPTED",
+  "default_environment": "roboguard-e3",
+  "environments": {
+    "roboguard-e3": [
+      "spot",
+      "roboguard.synthesis",
+      "spine.mapping.graph_util"
+    ],
+    "roboguard-eval": [
+      "spot",
+      "roboguard.synthesis",
+      "spine.mapping.graph_util"
+    ]
+  },
+  "evidence": [
+    "results/E3/01_roboguard/e3_pair_consolidation.json",
+    "results/E3/02_simple/e3a7_precommitted_map.json"
+  ],
+  "dependencies": [
+    "external/RoboGuard",
+    "external/SPINE"
+  ],
+  "script_environments": {
+    "m4_roboguard_deepseek_pair.py": "roboguard-eval",
+    "m4_corrupted_offline_replay.py": "roboguard-eval",
+    "m4_roboguard_synthesis_smoke.py": "roboguard-eval",
+    "m4_dynamic_snapshot_test.py": "roboguard-eval",
+    "m4_roboguard_grounding_pair.py": "roboguard-eval",
+    "m4_native_update_injection.py": "roboguard-eval",
+    "m4_roboguard_graph_pair.py": "roboguard-eval",
+    "m4_spine_plan_validation.py": "roboguard-eval",
+    "m4_joint_control_audit.py": "roboguard-eval",
+    "m4_spine_roboguard_repeat01.py": "roboguard-eval",
+    "m4_spine_roboguard_joint.py": "roboguard-eval",
+    "m4_corrupted_capture.py": "roboguard-eval",
+    "m4_trusted_geometry_defense.py": "roboguard-eval",
+    "m4_ltl_from_log.py": "roboguard-eval",
+    "m4_roboguard_validator_regression.py": "roboguard-eval",
+    "m4_relabel_pair_eval.py": "roboguard-eval",
+    "m4_hazard_relabel_prepare.py": "roboguard-eval",
+    "m4_ltl_diagnostic.py": "roboguard-eval",
+    "m4_spine_graph_handler_test.py": "roboguard-eval",
+    "m4_automaton_trace.py": "roboguard-eval",
+    "m4_spine_planner_alias.py": "roboguard-eval",
+    "m4_relabel_route_check.py": "roboguard-eval",
+    "m4_trusted_snapshot_defense.py": "roboguard-eval",
+    "m4_spine_planner_pair.py": "roboguard-eval"
+  }
+}

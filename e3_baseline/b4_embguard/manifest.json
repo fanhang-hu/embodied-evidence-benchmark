@@ -1,0 +1,35 @@
+{
+  "baseline_number": 4,
+  "name": "EMBGuard",
+  "implementation_level": "ORIGINAL_MODEL_AND_ADAPTED_FUSION",
+  "default_environment": "embguard-cpu",
+  "environments": {
+    "embguard-cpu": [
+      "torch",
+      "torchvision",
+      "transformers",
+      "pyarrow"
+    ],
+    "percepttwin-eval": [
+      "ai2thor.controller",
+      "jax"
+    ]
+  },
+  "evidence": [
+    "results/E3/06_embguard/e3f_v1_clean_officialstyle.jsonl",
+    "results/E3/06_embguard/e3g_audit/cross_split_pair_audit.csv",
+    "results/E3/07_percepttwin/e3g2_live_attack_fusion.json",
+    "results/E3/07_percepttwin/e3g2_live_positive_fusion.json"
+  ],
+  "dependencies": [
+    "external/EMBGuard",
+    "external/EMBGuard-2B",
+    "external/EMBGuardTest-v1",
+    "external/PerceptTwin"
+  ],
+  "script_environments": {
+    "e2c_rgb_pan_observability.py": "percepttwin-eval",
+    "e3g2_live_positive_fusion.py": "percepttwin-eval",
+    "e3g2_live_attack_fusion.py": "percepttwin-eval"
+  }
+}

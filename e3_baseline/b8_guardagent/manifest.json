@@ -1,0 +1,21 @@
+{
+  "baseline_number": 8,
+  "name": "GuardAgent",
+  "implementation_level": "ADAPTED_SOFTWARE_AGENT_EMBODIED_NA",
+  "default_environment": "guardagent-eval",
+  "environments": {
+    "guardagent-eval": [
+      "autogen",
+      "openai",
+      "Levenshtein"
+    ]
+  },
+  "evidence": [
+    "results/E3/08_guardagent/e2d_offline_compat.json",
+    "results/E3/08_guardagent/e3j3_shared_pair.json"
+  ],
+  "dependencies": [
+    "external/guardagent",
+    "external/guardagent_dataset"
+  ]
+}

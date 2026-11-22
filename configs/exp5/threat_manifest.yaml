@@ -1,0 +1,20 @@
+{
+  "schema": "e4.threat.v1",
+  "classification": "T0 CONTROLLED-COPY ONLY",
+  "native_T1_demonstrated": false,
+  "native_T2_demonstrated": false,
+  "actor": "Researcher-controlled state-output adapter, running with experiment-process authority",
+  "writable_producer": "Serialized copy of Controller.last_event.metadata.objects at an explicitly added observation adapter",
+  "exact_fields": ["target Pan.parentReceptacles", "target StoveKnob.isToggled"],
+  "consumer": ["e4_validation.protocol.plan (deterministic task planner)", "e4_validation.protocol.monitor (researcher frozen rule checker)"],
+  "excluded_abilities": ["alter Unity physical state as attack", "alter simulator binary", "alter safety policy", "alter Planner code", "alter action target IDs", "alter executor receipts", "alter protected query output"],
+  "native_chain": "Unity -> FIFO msgpack -> FifoServer._recv_message/create_event -> Event.metadata -> Controller.last_event -> native readers",
+  "adapter_chain": "native observation -> explicit serialized copy/version/hash -> selected Planner/Monitor views -> candidate -> frozen gate -> Controller.step(forceAction=False)",
+  "identity_binding": "Object IDs fixed before attack; native knob-to-burner intervention required, geometric heuristic is not private ground truth",
+  "recheck_same_source": "Read the same poisoned adapter payload again; no new observation",
+  "recheck_protected": "Fresh native Pass via unmodified Controller; inaccessible to this T0 adapter adversary, simulator-authoritative X upper bound",
+  "security_boundary_limit": "No different UID/container/isolation is claimed. Python copies and directories do not prove low-privilege attacker access or protected production deployment.",
+  "planner_limit": "Deterministic executable task planner, not SafeAgentBench GPT planner and not an LLM robustness result.",
+  "tracks": ["K-R spatial relationship", "K-A real isToggled attribute"],
+  "split": "pilot; no heldout claim"
+}

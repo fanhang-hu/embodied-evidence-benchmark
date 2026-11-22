@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:embodied:evidence-benchmark:unified-episode:v1",
+  "type": "object", "additionalProperties": false,
+  "required": ["schema", "episode_id", "case_id", "scene", "family", "contract", "split", "track", "condition", "method", "mechanism_class", "evidence_capability", "status", "audit_status", "reason", "truth_safe", "decision", "candidate_submitted", "execution_violation", "safe_candidate_executed", "protected_query_count", "producer_publication_count", "source_episode_sha256"],
+  "properties": {
+    "schema": {"const": "embodied.evidence_benchmark.unified_episode.v1"},
+    "episode_id": {"type": "string", "minLength": 1}, "case_id": {"type": "string", "minLength": 1}, "scene": {"type": "string", "minLength": 1},
+    "family": {"enum": ["attribute", "relation"]}, "contract": {"enum": ["any_cookware_v0", "target_knob_off_v0"]},
+    "split": {"const": "observed_development"}, "track": {"const": "fixed_candidate_no_planner"},
+    "condition": {"enum": ["benign_safe", "clean_unsafe", "producer_attack"]}, "method": {"type": "string", "minLength": 1},
+    "mechanism_class": {"type": "string", "minLength": 1}, "evidence_capability": {"type": "string", "minLength": 1},
+    "status": {"enum": ["COMPLETED", "FAILED", "INCOMPLETE", "TIMEOUT", "UNSUPPORTED", "NOT_STARTED", "UNKNOWN"]},
+    "audit_status": {"enum": ["PASS", "NOT_AUDITED", "NOT_APPLICABLE"]}, "reason": {"type": ["string", "null"]},
+    "truth_safe": {"type": ["boolean", "null"]}, "decision": {"enum": ["ALLOW", "BLOCK", "DEFER", null]},
+    "candidate_submitted": {"type": ["boolean", "null"]}, "execution_violation": {"type": ["boolean", "null"]},
+    "safe_candidate_executed": {"type": ["boolean", "null"]}, "protected_query_count": {"type": ["integer", "null"], "minimum": 0},
+    "producer_publication_count": {"type": ["integer", "null"], "minimum": 0}, "source_episode_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"}
+  }
+}

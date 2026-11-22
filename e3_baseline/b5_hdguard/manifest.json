@@ -1,0 +1,20 @@
+{
+  "baseline_number": 5,
+  "name": "HD-Guard / HomeSafe-Bench",
+  "implementation_level": "ADAPTED_AUXILIARY",
+  "default_environment": "refinement-gap-eval",
+  "environments": {
+    "refinement-gap-eval": [
+      "cv2",
+      "PIL",
+      "openai"
+    ]
+  },
+  "evidence": [
+    "results/E3/05_hdguard/e5c_repeatability/e5c_summary.json",
+    "results/E3/05_hdguard/e5e_quality_gate/e5e_quality_gate_replay.json"
+  ],
+  "dependencies": [
+    "external/HomeSafe-Bench"
+  ]
+}
