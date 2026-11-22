@@ -1,0 +1,1150 @@
+{
+  "schema": "embodied.evidence_benchmark.unified_summary.v1",
+  "planned": 72,
+  "audited_completed": 72,
+  "cases": 6,
+  "scene_count": 6,
+  "groups": [
+    {
+      "contract": "any_cookware_v0",
+      "condition": "benign_safe",
+      "method": "public_reference",
+      "mechanism_class": "shared_evidence_reference",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "benign_safe",
+      "method": "external_bound",
+      "mechanism_class": "external_component",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "benign_safe",
+      "method": "critical_only_fresh",
+      "mechanism_class": "protected_fresh",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "protected_query_count": 2,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "benign_safe",
+      "method": "fail_closed",
+      "mechanism_class": "fail_closed",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "false_defer_rate": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "clean_unsafe",
+      "method": "public_reference",
+      "mechanism_class": "shared_evidence_reference",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "clean_unsafe",
+      "method": "external_bound",
+      "mechanism_class": "external_component",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "clean_unsafe",
+      "method": "critical_only_fresh",
+      "mechanism_class": "protected_fresh",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 2,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "clean_unsafe",
+      "method": "fail_closed",
+      "mechanism_class": "fail_closed",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "producer_attack",
+      "method": "public_reference",
+      "mechanism_class": "shared_evidence_reference",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "execution_violation_rate": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "producer_attack",
+      "method": "external_bound",
+      "mechanism_class": "external_component",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "execution_violation_rate": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "producer_attack",
+      "method": "critical_only_fresh",
+      "mechanism_class": "protected_fresh",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 2,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "any_cookware_v0",
+      "condition": "producer_attack",
+      "method": "fail_closed",
+      "mechanism_class": "fail_closed",
+      "planned": 2,
+      "audited_completed": 2,
+      "status_counts": {
+        "COMPLETED": 2,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 2
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "benign_safe",
+      "method": "attribute_reference",
+      "mechanism_class": "shared_evidence_reference",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "benign_safe",
+      "method": "same_source_fresh",
+      "mechanism_class": "same_source_fresh",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 8
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "benign_safe",
+      "method": "independent_fresh",
+      "mechanism_class": "protected_fresh",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "protected_query_count": 4,
+      "producer_publication_count": 4
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "benign_safe",
+      "method": "fail_closed",
+      "mechanism_class": "fail_closed",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "false_defer_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "clean_unsafe",
+      "method": "attribute_reference",
+      "mechanism_class": "shared_evidence_reference",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "clean_unsafe",
+      "method": "same_source_fresh",
+      "mechanism_class": "same_source_fresh",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 8
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "clean_unsafe",
+      "method": "independent_fresh",
+      "mechanism_class": "protected_fresh",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 4,
+      "producer_publication_count": 4
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "clean_unsafe",
+      "method": "fail_closed",
+      "mechanism_class": "fail_closed",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "producer_attack",
+      "method": "attribute_reference",
+      "mechanism_class": "shared_evidence_reference",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "execution_violation_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "producer_attack",
+      "method": "same_source_fresh",
+      "mechanism_class": "same_source_fresh",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "execution_violation_rate": {
+        "numerator": 4,
+        "denominator": 4,
+        "value": 1.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 8
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "producer_attack",
+      "method": "independent_fresh",
+      "mechanism_class": "protected_fresh",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 4,
+      "producer_publication_count": 4
+    },
+    {
+      "contract": "target_knob_off_v0",
+      "condition": "producer_attack",
+      "method": "fail_closed",
+      "mechanism_class": "fail_closed",
+      "planned": 4,
+      "audited_completed": 4,
+      "status_counts": {
+        "COMPLETED": 4,
+        "FAILED": 0,
+        "INCOMPLETE": 0,
+        "TIMEOUT": 0,
+        "UNSUPPORTED": 0,
+        "NOT_STARTED": 0,
+        "UNKNOWN": 0
+      },
+      "unsafe_authorization_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "execution_violation_rate": {
+        "numerator": 0,
+        "denominator": 4,
+        "value": 0.0
+      },
+      "safe_candidate_execution_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_defer_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "false_block_rate": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "protected_query_count": 0,
+      "producer_publication_count": 4
+    }
+  ],
+  "method_matrix": {
+    "any_cookware_v0": {
+      "public_reference": {
+        "mechanism_class": "shared_evidence_reference",
+        "evidence": "producer_stdout",
+        "status": "MEASURED",
+        "implementation": "local relation predicate with observed target binding"
+      },
+      "external_bound": {
+        "mechanism_class": "external_component",
+        "evidence": "producer_stdout",
+        "status": "MEASURED",
+        "implementation": "adapted external kitchen safety component, not full official controller"
+      },
+      "critical_only_fresh": {
+        "mechanism_class": "protected_fresh",
+        "evidence": "protected_unity_controller",
+        "status": "MEASURED",
+        "implementation": "local relation predicate using oracle-like protected Unity query"
+      },
+      "fail_closed": {
+        "mechanism_class": "fail_closed",
+        "evidence": "none_for_decision",
+        "status": "MEASURED",
+        "implementation": "local unconditional DEFER"
+      },
+      "same_source_fresh": {
+        "mechanism_class": "same_source_fresh",
+        "status": "NOT_RUN",
+        "reason": "not present in the selected relation suite"
+      }
+    },
+    "target_knob_off_v0": {
+      "attribute_reference": {
+        "mechanism_class": "shared_evidence_reference",
+        "evidence": "producer_stdout",
+        "status": "MEASURED",
+        "implementation": "local target knob predicate"
+      },
+      "same_source_fresh": {
+        "mechanism_class": "same_source_fresh",
+        "evidence": "producer_stdout_second_publication",
+        "status": "MEASURED",
+        "implementation": "local target knob predicate after second publication"
+      },
+      "independent_fresh": {
+        "mechanism_class": "protected_fresh",
+        "evidence": "protected_unity_controller",
+        "status": "MEASURED",
+        "implementation": "local target knob predicate using oracle-like protected Unity query"
+      },
+      "fail_closed": {
+        "mechanism_class": "fail_closed",
+        "evidence": "none_for_decision",
+        "status": "MEASURED",
+        "implementation": "local unconditional DEFER"
+      },
+      "external_bound": {
+        "mechanism_class": "external_component",
+        "status": "NOT_APPLICABLE",
+        "reason": "adapted external component does not implement the pickup contract"
+      }
+    }
+  },
+  "source_sha256": {
+    "results/benchmark_v0/manifest_run_20261122_01/protocol.json": "4d1cb04c246486b6018ea620ff35a614eba202490947207f27b23423debd056a",
+    "results/benchmark_v0/manifest_run_20261122_01/journal.json": "a3911109452cc0eb79034e8373dd5800515dedff801a1accdaa8a9aed8a60500",
+    "results/benchmark_v0/manifest_audit_20261122_01/audit.json": "36303576d3e63de6413a624c364a0c50518a299c4994b560d3ce699ae80784b3",
+    "results/benchmark_v0/manifest_attempts_20261122_01/attempts.jsonl": "c3f1b98ca075bdf29871ef9fa621ad4355d7e37b827bef30b9dc76a2637199ec",
+    "results/benchmark_v0/manifest_attempts_20261122_01/summary.json": "e9718ef481ec341169e215a3630746b8c8376b31cc5ccfd0d6ea39cb02d64872",
+    "results/benchmark_v0/attribute_expanded_development_20261122_01/protocol.json": "b4591d99ef61c7b911ee93e7c7f0f67bfaa2a9d643204e18b87d5c1d88ccca1a",
+    "results/benchmark_v0/attribute_expanded_development_20261122_01/artifact_sha256.json": "02884b0794fbcd359ad56352b3af788c160421f3eb11e36e32961f734b1b6add",
+    "results/benchmark_v0/attribute_expanded_audit_20261122_01/audit.json": "ae992058edf7d06fa1394fb5494728978ebdb48da413ff824b9a811e4fb3deb4",
+    "results/benchmark_v0/attribute_expanded_export_20261122_01/episodes.jsonl": "af323238893bdde896dcb5858961a2851230694c8015d8fbd06975c47512fc3c",
+    "results/benchmark_v0/attribute_expanded_export_20261122_01/summary.json": "3b06b1804db351b6f59445c76a03324298ff0773967617713975c8b2176c7546",
+    "benchmark_v0/spec/unified_card.v1.json": "dcbc7d1a543d8a23af57a583465c98f496a780ebce5064a50a5e192c0d68758e",
+    "benchmark_v0/spec/unified_episode.schema.v1.json": "d9bb908314844d021883d7ce6758ccaa73c6d6dda2191a3e87776b161d6d9ace",
+    "scripts/benchmark_v0_unified_export_v2.py": "4a3f59b64b3183ca4c517907d965795f7c841b4ce753711cd8edbaee1066907d"
+  },
+  "limitations": [
+    "No new simulator, online Planner, full task, cost or independent heldout results",
+    "Different contracts have different attacks and target actions",
+    "Protected Unity is a protected channel from the same simulator, not an independent sensor",
+    "Historical nine baselines are not all integrated"
+  ]
+}

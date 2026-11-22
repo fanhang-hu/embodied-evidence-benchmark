@@ -18,5 +18,10 @@
     "file": "candidate_four_scene_summary.json",
     "workspace_source": "results/benchmark_v0/candidate_evaluation_attempts_20261122_01/summary.json",
     "sha256": "50eb09b025a932d6d972d070485756001bf6c9d16f50af03e3a9c5ecc1eccc49"
+  },
+  {
+    "file": "unified_72_summary.json",
+    "workspace_source": "results/benchmark_v0/unified_development_72_20261122_01/summary.json",
+    "sha256": "274fccc74417ff1a39c5e364e76efc8ee952356d51e915d98809d84e5d70391d"
   }
 ]
