@@ -15,6 +15,7 @@ SUMMARIES={'e6_online_summary.json':'results/E6/36_online_report/online_20261025
            'attribute_four_scene_summary.json':'results/benchmark_v0/attribute_expanded_export_20261122_01/summary.json',
            'unified_72_summary.json':'results/benchmark_v0/unified_development_72_20261122_01/summary.json',
            'unified_93_summary.json':'results/benchmark_v0/native_unified_93_20261122_01/summary.json',
+           'safegate_development_summary.json':'results/benchmark_v0/safegate_baseline_development_20261122_01/summary.json',
            'candidate_four_scene_summary.json':'results/benchmark_v0/candidate_evaluation_attempts_20261122_01/summary.json'}
 
 

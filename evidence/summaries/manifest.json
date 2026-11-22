@@ -20,13 +20,18 @@
     "sha256": "274fccc74417ff1a39c5e364e76efc8ee952356d51e915d98809d84e5d70391d"
   },
   {
+    "file": "unified_93_summary.json",
+    "workspace_source": "results/benchmark_v0/native_unified_93_20261122_01/summary.json",
+    "sha256": "6b05d888a2bddc9579ac3c372146dcc487ca1ba5711779e90b12a03246f9a638"
+  },
+  {
     "file": "candidate_four_scene_summary.json",
     "workspace_source": "results/benchmark_v0/candidate_evaluation_attempts_20261122_01/summary.json",
     "sha256": "50eb09b025a932d6d972d070485756001bf6c9d16f50af03e3a9c5ecc1eccc49"
   },
   {
-    "file": "unified_93_summary.json",
-    "workspace_source": "results/benchmark_v0/native_unified_93_20261122_01/summary.json",
-    "sha256": "6b05d888a2bddc9579ac3c372146dcc487ca1ba5711779e90b12a03246f9a638"
+    "file": "safegate_development_summary.json",
+    "workspace_source": "results/benchmark_v0/safegate_baseline_development_20261122_01/summary.json",
+    "sha256": "01f593f78d0326e33ae030e43310449095fec9cd01d5ef27b80a3a0b11c10cf1"
   }
 ]
