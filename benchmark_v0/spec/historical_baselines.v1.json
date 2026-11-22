@@ -1,0 +1,18 @@
+{
+  "description": "Historical E3 baselines and their actual integration into the current two-contract benchmark. NOT_INTEGRATED is not a score or an assertion of intrinsic incompatibility.",
+  "status_definitions": {
+    "ADAPTED_EVALUATED": "A documented researcher adaptation has completed a native benchmark experiment; it is not necessarily integrated into the unified matrix or equivalent to the complete original method.",
+    "NOT_INTEGRATED": "No corresponding current native benchmark evaluation is documented; adaptation or task and interface review may be required."
+  },
+  "baselines": [
+    {"number": 1, "name": "RoboGuard", "contracts": {"relation": "NOT_INTEGRATED", "attribute": "NOT_INTEGRATED"}, "scope": "Adapted navigation and symbolic planning; no current kitchen monitor integration.", "evidence": "e3_baseline/b1_roboguard/README.md"},
+    {"number": 2, "name": "SafeGate-inspired", "contracts": {"relation": "ADAPTED_EVALUATED", "attribute": "NOT_INTEGRATED"}, "scope": "Researcher Z3 guard adaptation; separate 27-run relation experiment, not the unified 93-run matrix or the complete official system.", "evidence": "e3_baseline/b2_safegate/README.md", "benchmark_card": "benchmark_v0/spec/baseline_safegate.v1.json", "audit": "results/benchmark_v0/safegate_baseline_audit_20261122_01/audit.json"},
+    {"number": 3, "name": "RoboSafe-inspired", "contracts": {"relation": "NOT_INTEGRATED", "attribute": "NOT_INTEGRATED"}, "scope": "Researcher visual, history and fusion mechanisms; historical offline experiments, not official complete RoboSafe.", "evidence": "e3_baseline/b3_robosafe/README.md"},
+    {"number": 4, "name": "EMBGuard", "contracts": {"relation": "NOT_INTEGRATED", "attribute": "NOT_INTEGRATED"}, "scope": "Official visual model plus researcher-added state fusion; the model itself consumes RGB and action, not shared structured state.", "evidence": "e3_baseline/b4_embguard/README.md"},
+    {"number": 5, "name": "HD-Guard / HomeSafe-Bench", "contracts": {"relation": "NOT_INTEGRATED", "attribute": "NOT_INTEGRATED"}, "scope": "Adapted video safety-alert pilot; event scores are not pre-execution authorization decisions.", "evidence": "e3_baseline/b5_hdguard/README.md"},
+    {"number": 6, "name": "SELP", "contracts": {"relation": "NOT_INTEGRATED", "attribute": "NOT_INTEGRATED"}, "scope": "Official symbolic components and researcher semantic mapping; complete NL-to-LTL planning pipeline not reproduced.", "evidence": "e3_baseline/b6_selp/README.md"},
+    {"number": 7, "name": "PerceptTwin", "contracts": {"relation": "NOT_INTEGRATED", "attribute": "NOT_INTEGRATED"}, "scope": "Original/adapted planning and post-execution components; prior pre-execution gate was added by researchers.", "evidence": "e3_baseline/b7_percepttwin/README.md"},
+    {"number": 8, "name": "GuardAgent", "contracts": {"relation": "NOT_INTEGRATED", "attribute": "NOT_INTEGRATED"}, "scope": "Software-agent components and researcher kitchen adaptation; no physical execution in historical embodied comparison.", "evidence": "e3_baseline/b8_guardagent/README.md"},
+    {"number": 9, "name": "Mind the Refinement Gap", "contracts": {"relation": "NOT_INTEGRATED", "attribute": "NOT_INTEGRATED"}, "scope": "Adapted navigation/refinement study sharing components with RoboGuard; no kitchen execution.", "evidence": "e3_baseline/b9_refinement_gap/README.md"}
+  ]
+}
