@@ -32,3 +32,7 @@ Evaluation records and full truth snapshots belong to the evaluator, not to the 
 - `evidence/summaries/`: selected aggregate summaries; not the full experiment archive.
 
 Version code and ordinary development in Git. Before a formal final test, record the selected cases, methods, permissions, source revision and budget before inspecting results; routine development does not require a separate frozen directory for every change.
+
+### Updating this local Git snapshot
+
+This worktree is a curated copy of the parent workspace, not its `.git` directory. From this repository, run `python3 tools/sync_from_workspace.py` to inspect changed or new selected files, then `python3 tools/sync_from_workspace.py --apply` to copy them into a **clean** worktree. Review `git diff`, then commit normally. The sync refuses a dirty worktree and does not delete files removed from the workspace; review deletions separately. It still excludes full raw results and external dependencies.
